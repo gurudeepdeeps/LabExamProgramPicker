@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCA 1st Sem PYTHON Lab Practicals</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .top-right-buttons {
+            position: absolute;
+            top: 120px;
+            right: 10px;
+        }
+
+        .top-right-buttons button {
+            margin-left: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .top-right-buttons button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="SJBIT-header.png" alt="SJBIT Header" class="header-image">
+    </header>
+    <div class="top-right-buttons">
+        <button onclick="window.location.href='index.html'" id="dbms-button">DBMS</button>
+        <button onclick="window.location.href='indexCopy.html'" id="python-button">PYTHON</button>
+    </div>
+    <div class="container">
+        <h2>MCA 1st Sem PYTHON Lab Practicals</h2>
+        <button onclick="pickPrograms()" id="pick-button">🎲 Pick Two Programs 🎲</button>
+        <div id="programs"></div>
+        <div id="question" class="question"></div>
+    </div>
+
+    <script src="scriptCopy.js"></script>
+</body>
+
+</html>
